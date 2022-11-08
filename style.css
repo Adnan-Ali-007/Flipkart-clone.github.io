@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    padding: 23px 40px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 83px;
+}
+
+.card-item {
+    padding: 0px 34px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* width: 100px; */
+}
+
+.search input {
+    height: 27px;
+    width: 30vw;
+    border-radius: 4px;
+    margin: 0 16px 0 58px;
+    padding: 0px 12px;
+}
+
+.slider {
+    margin: 38px;
+    /* width: 20vw; */
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.slider img{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards2 {
+    display: flex;
+    margin: 0px -4px;
+}
+
+.lines {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    /* overflow: scroll; */
+}
+
+.card1 {
+    display: flex;
+
+}
+
+.container h2 {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 9px -7px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 48px;
+}
+
+.card-item img {
+    display: flex;
+}
+
+header {
+    background: var(--main-bg-color);
+    height: 14vh;
+    font-family: 'Beau Rivage', cursive;
+    flex-direction: normal;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+footer {
+    display: flex;
+    margin-top: 93px;
+    background: var(--main-bg-color);
+    height: 14vh;
+    color: aliceblue;
+    font-family: 'Beau Rivage', cursive;
+    /* overflow: hidden; */
+    /* flex-wrap: wrap; */
+}
+
+h2 {
+    display: flex;
+}
+
+/* .container slider img {
+    display: flex;
+    overflow: hidden;
+} */

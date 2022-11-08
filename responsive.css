@@ -1,0 +1,57 @@
+@media screen and (max-width:1000px){
+    /* body{
+        background-color: red;
+    } */
+nav{
+    flex-direction: column;
+    width: 100%;
+    overflow: auto;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+header{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+}
+.logo{
+    justify-content: center;
+    margin: 12px 0pxs;
+}
+nav ul{
+    justify-content: center;
+}
+.search{
+    justify-content: center;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.search input{
+
+    margin: 0px 13px;
+    width: 20vw;
+}
+.slider{
+    height: 23vh;
+     width: 100%;
+}
+.container slider img{
+ width: 100%;
+
+
+
+}
+ /* btn{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.card-item img{
+    width: 14px;
+}
+footer{
+width: 100%;
+
+
+}
+}
